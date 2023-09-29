@@ -16,7 +16,6 @@ void fibheap<T,K>::fibheapLink(fibheapNode *y, fibheapNode *x)
         x->child->right = y;
         y->left = x->child;
     }
-    
     else
     {
         x->child = y;
